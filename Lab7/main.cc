@@ -61,7 +61,7 @@ int main() {
     vector<float> result;
     result = add(r,v);
     
-    for (int i = 0; i < result.size(); ++i) {
+    for (unsigned i = 0; i < result.size(); ++i) {
         cout << result.at(i) << " ";
     }
     cout << endl;

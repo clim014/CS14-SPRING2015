@@ -124,7 +124,7 @@ void record() {
         v = data.find(i)->second;
         
         outFS << i << "\t";
-        for (int j = 0; j < v.size(); ++j) {
+        for (unsigned j = 0; j < v.size(); ++j) {
             outFS << v.at(j) << "\t";
         }
         outFS << "\n";
